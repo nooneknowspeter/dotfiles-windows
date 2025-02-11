@@ -25,9 +25,28 @@ $HOME\.config\wezterm
 
 ## setup
 
+### powershell
+
+#### fish like behaviour
+
+```
+Install-Module PSReadLine -AllowPrerelease
+
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+
+Set-PSReadLineKeyHandler -Key Tab -Function Complete
+```
+#### support long paths
+
+```
+Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem' -Name 'LongPathsEnabled' -Value 1
+```
+
 - [alacritty](https://github.com/nooneknowspeter/alacritty)
 - [glazewm](https://github.com/glzr-io/glazewm)
 - [nvim](https://github.com/nooneknowspeter/nvim)
+- [wezterm](https://github.com/wezterm/wezterm)
 - [zebar](https://github.com/glzr-io/zebar)
 
 ### package managers

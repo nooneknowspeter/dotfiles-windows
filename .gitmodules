@@ -1,0 +1,9 @@
+[submodule "nvim/AppData/Local/nvim"]
+	path = nvim/AppData/Local/nvim
+	url = git@github.com:nooneknowspeter/nvim.git
+[submodule "alacritty/AppData/Roaming/alacritty"]
+	path = alacritty/AppData/Roaming/alacritty
+	url = git@github.com:nooneknowspeter/alacritty.git
+[submodule "wezterm/.config/wezterm"]
+	path = wezterm/.config/wezterm
+	url = git@github.com:nooneknowspeter/wezterm.git
